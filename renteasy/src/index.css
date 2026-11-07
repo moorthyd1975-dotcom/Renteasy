@@ -1,0 +1,52 @@
+@import "tailwindcss";
+
+:root {
+  --bg-canvas: #F2EBDC;
+  --bg-surface: #F7F3E8;
+  --bg-card: #FAF6ED;
+  --border-beige: #DDD2B4;
+  --border-beige-light: #EFE7D3;
+  --primary-green: #2E6B4A;
+  --button-green: #3F7F5C;
+  --hover-green: #6FAF87;
+  --light-green: #A9D3B7;
+  --text-primary: #2C2C2C;
+  --text-secondary: #6B6B6B;
+  --text-muted: #9A9A9A;
+}
+
+body {
+  background-color: #F2EBDC;
+  color: #2C2C2C;
+  font-family: 'Manrope', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  min-height: 100vh;
+}
+
+h1, h2, h3, h4, h5, h6, .font-heading {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.font-mono-numbers {
+  font-family: 'JetBrains Mono', monospace;
+  font-variant-numeric: tabular-nums;
+}
+
+/* Custom scrollbars matching RentEase palette */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #F2EBDC;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #DDD2B4;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #6FAF87;
+}

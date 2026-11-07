@@ -1,0 +1,6 @@
+{
+  "name": "RentEase – AI-Powered Property & Rental Management",
+  "description": "All-in-one property and rental management platform for compound owners: rent collection, tenant history, AI-assisted electricity meter reading, evidence preservation, and income analytics.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
